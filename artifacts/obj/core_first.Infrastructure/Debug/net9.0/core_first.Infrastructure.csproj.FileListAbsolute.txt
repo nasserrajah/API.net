@@ -1,0 +1,12 @@
+D:\core_first.API\artifacts\bin\core_first.Infrastructure\Debug\net9.0\core_first.Infrastructure.deps.json
+D:\core_first.API\artifacts\bin\core_first.Infrastructure\Debug\net9.0\core_first.Infrastructure.dll
+D:\core_first.API\artifacts\bin\core_first.Infrastructure\Debug\net9.0\core_first.Infrastructure.pdb
+D:\core_first.API\artifacts\obj\core_first.Infrastructure\Debug\net9.0\core_first.Infrastructure.csproj.AssemblyReference.cache
+D:\core_first.API\artifacts\obj\core_first.Infrastructure\Debug\net9.0\core_first.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\core_first.API\artifacts\obj\core_first.Infrastructure\Debug\net9.0\core_first.Infrastructure.csproj.CoreCompileInputs.cache
+D:\core_first.API\artifacts\obj\core_first.Infrastructure\Debug\net9.0\core_first.Infrastructure.sourcelink.json
+D:\core_first.API\artifacts\obj\core_first.Infrastructure\Debug\net9.0\core_fir.63D31194.Up2Date
+D:\core_first.API\artifacts\obj\core_first.Infrastructure\Debug\net9.0\core_first.Infrastructure.dll
+D:\core_first.API\artifacts\obj\core_first.Infrastructure\Debug\net9.0\refint\core_first.Infrastructure.dll
+D:\core_first.API\artifacts\obj\core_first.Infrastructure\Debug\net9.0\core_first.Infrastructure.pdb
+D:\core_first.API\artifacts\obj\core_first.Infrastructure\Debug\net9.0\ref\core_first.Infrastructure.dll

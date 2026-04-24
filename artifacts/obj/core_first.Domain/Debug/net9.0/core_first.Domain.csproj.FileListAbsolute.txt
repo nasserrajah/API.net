@@ -1,0 +1,10 @@
+D:\core_first.API\artifacts\bin\core_first.Domain\Debug\net9.0\core_first.Domain.deps.json
+D:\core_first.API\artifacts\bin\core_first.Domain\Debug\net9.0\core_first.Domain.dll
+D:\core_first.API\artifacts\bin\core_first.Domain\Debug\net9.0\core_first.Domain.pdb
+D:\core_first.API\artifacts\obj\core_first.Domain\Debug\net9.0\core_first.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\core_first.API\artifacts\obj\core_first.Domain\Debug\net9.0\core_first.Domain.csproj.CoreCompileInputs.cache
+D:\core_first.API\artifacts\obj\core_first.Domain\Debug\net9.0\core_first.Domain.sourcelink.json
+D:\core_first.API\artifacts\obj\core_first.Domain\Debug\net9.0\core_first.Domain.dll
+D:\core_first.API\artifacts\obj\core_first.Domain\Debug\net9.0\refint\core_first.Domain.dll
+D:\core_first.API\artifacts\obj\core_first.Domain\Debug\net9.0\core_first.Domain.pdb
+D:\core_first.API\artifacts\obj\core_first.Domain\Debug\net9.0\ref\core_first.Domain.dll
