@@ -43,7 +43,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Infrastructure + Features Registration
 builder.Services.AddInfrastructureServices();
-builder.Services.AddApplicationFeatures();
+builder.Services.AddApplicationLayer();   // <-- تم التصحيح هنا
 
 // JWT Authentication
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
@@ -106,7 +106,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "CoreFirst API V1");
-        c.RoutePrefix = "swagger"; // يمكن تغييره إلى "" إذا أردت فتح Swagger على الرابط الرئيسي
+        c.RoutePrefix = "swagger";
     });
 }
 

@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BgrL+ID9UEo=",
+  "dgSpecHash": "+Ozrf2EZJ7M=",
   "success": true,
   "projectFilePath": "D:\\core_first.API\\src\\Application\\core_first.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nasser\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\Nasser\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Nasser\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Nasser\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Nasser\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []

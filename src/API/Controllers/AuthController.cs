@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using MediatR;
 using core_first.Application.Features.Auth.DTOs;
-using core_first.Application.Features.Auth.Interfaces;
+using core_first.Application.Features.Auth.Queries.Login;
+using core_first.Application.Features.Auth.Commands.Register;
 
 namespace core_first.API.Controllers;
 
@@ -8,28 +10,30 @@ namespace core_first.API.Controllers;
 [ApiController]
 public class AuthController : ControllerBase
 {
-    private readonly ILoginQuery _loginQuery;
-    private readonly IRegisterCommand _registerCommand;
+    private readonly IMediator _mediator;
 
-    public AuthController(ILoginQuery loginQuery, IRegisterCommand registerCommand)
-    {
-        _loginQuery = loginQuery;
-        _registerCommand = registerCommand;
-    }
+    public AuthController(IMediator mediator) => _mediator = mediator;
 
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginDto loginDto)
     {
-        var tokenDto = await _loginQuery.ExecuteAsync(loginDto);
-        if (tokenDto == null)
+        var query = new LoginQuery { Username = loginDto.Username, Password = loginDto.Password };
+        var token = await _mediator.Send(query);
+        if (token == null)
             return Unauthorized(new { message = "Invalid username or password" });
-        return Ok(tokenDto);
+        return Ok(token);
     }
 
     [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterDto registerDto)
     {
-        var success = await _registerCommand.ExecuteAsync(registerDto);
+        var command = new RegisterCommand
+        {
+            Username = registerDto.Username,
+            Password = registerDto.Password,
+            Email = registerDto.Email
+        };
+        var success = await _mediator.Send(command);
         if (!success)
             return BadRequest(new { message = "Username already exists" });
         return Ok(new { message = "User registered successfully" });
